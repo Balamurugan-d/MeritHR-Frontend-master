@@ -1,0 +1,24 @@
+@import "../../../styles/main.scss";
+.MuiMobileStepper-root .MuiButtonBase-root {
+    display: none !important;
+}
+
+.MuiMobileStepper-root {
+    background: transparent !important;
+}
+
+.MuiLinearProgress-barColorPrimary {
+    background-color: $primary !important;
+}
+
+.MuiLinearProgress-colorPrimary {
+    background-color: lighten($primary, 40%) !important;
+}
+
+.MuiMobileStepper-root {
+    padding: 8px 0 !important;
+}
+
+.MuiMobileStepper-progress {
+    width: 100% !important;
+}

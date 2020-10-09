@@ -1,0 +1,36 @@
+//  main colors
+$primary: #f08804; //for primary buttons
+$secondary: #515761; // for secondary buttons
+//_________________________________________________
+$font-light:#d0d0d0;
+$font-dark:#525962;
+$navbar: #f4f5f7;
+$navbar-font:$font-dark;
+$main-sidebar: #131921; //secondary,900 
+$main-sidebar-font:$font-light;
+$link-color:$primary;
+//  End - main colors
+//  helper colors
+$success: #28a745;
+$danger: #dc3545;
+$warning: #ffc107;
+$info: #2f8dfa;
+$default: #676767;
+$disable: #eaeaea;
+// End - helper colors
+$base-font-family: "Segoe UI VSS (Regular)",
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+// font styles
+$base-font-size: 0.875rem; //14px
+$font-primary-color: rgba(0, 0, 0, 0.9);
+$font-secondary-color: #6c757d;
+$icon-primary-color: rgba(0, 0, 0, 0.7);
+// End - font styles
+$box-shadow-primary: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+0 3px 1px -2px rgba(0, 0, 0, 0.12),
+0 1px 5px 0 rgba(0, 0, 0, 0.2);

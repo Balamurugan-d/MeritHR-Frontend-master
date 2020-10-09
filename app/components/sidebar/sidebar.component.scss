@@ -1,0 +1,37 @@
+@import "../../styles/main.scss";
+// Start- sidebar styles
+.MuiDrawer-paper {
+    background-color: $main-sidebar !important;
+    width: 100px !important;
+}
+
+.MuiListItem-root {
+    flex-direction: column !important;
+}
+
+.MuiListItemIcon-root {
+    min-width: auto !important;
+}
+
+.MuiListSubheader-inset {
+    padding-left: .25rem !important;
+    padding-right: .25rem !important;
+    text-align: center !important;
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+    border-right: 0 !important;
+}
+
+// End- sidebar styles
+.sidebar-logo {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.SidebarComponent-toolbarIcon-28 {
+    min-height: 80px !important;
+    justify-content: center !important;
+}

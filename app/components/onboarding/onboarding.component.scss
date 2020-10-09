@@ -1,0 +1,8 @@
+@import "../../styles/main.scss";
+.MuiStepIcon-root.MuiStepIcon-active {
+    color: $primary !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed {
+    color: $success !important;
+}

@@ -1,0 +1,47 @@
+// text field
+.MuiFormControl-fullWidth {
+    margin: 1rem 0 !important;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 1px solid $primary !important;
+}
+
+// focused color
+.MuiFormLabel-root.Mui-focused {
+    color: $primary !important;
+}
+
+.MuiInput-underline.Mui-focused {
+    border: 0 !important;
+    border-bottom: 1px solid $primary !important;
+}
+
+.MuiInput-underline:after {
+    border-bottom: 1px solid $primary !important;
+}
+
+// end- text field
+// Radio starts
+.MuiRadio-colorPrimary.Mui-checked {
+    color: $primary !important;
+}
+
+.MuiRadio-colorSecondary.Mui-checked {
+    color: $secondary !important;
+}
+
+.label-shrink {
+    transform: translate(0, 1.5px) scale(0.75);
+    transform-origin: top left;
+}
+
+// End- Radio
+// checkbox
+.MuiCheckbox-colorPrimary.Mui-checked {
+    color: $primary !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: $secondary !important;
+}

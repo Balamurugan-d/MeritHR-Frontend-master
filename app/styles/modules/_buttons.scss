@@ -1,0 +1,57 @@
+// Theme styles
+.color-primary {
+    color: $primary !important;
+}
+
+.color-secondary {
+    color: $secondary !important;
+}
+
+.bg-primary {
+    background-color: $primary !important;
+}
+
+.bg-secondary {
+    background-color: $secondary !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.link-item {
+    color: $link-color;
+    cursor: pointer;
+}
+
+// End- Theme styles
+.MuiButton-containedPrimary {
+    color: #fff !important;
+    background-color: $primary !important;
+}
+
+.MuiButton-containedSecondary {
+    color: #fff !important;
+    background-color: $secondary !important;
+}
+
+.MuiButton-root {
+    border-radius: 2px !important;
+}
+
+.MuiButton-containedSizeSmall {
+    padding: 6px 10px 4px !important;
+}
+
+// badge styles
+.MuiBadge-colorSecondary {
+    color: white !important;
+    background-color: $secondary !important;
+}
+
+.MuiBadge-colorPrimary {
+    color: #000 !important;
+    background-color: $primary !important;
+}
+
+// badge styles

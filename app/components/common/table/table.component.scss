@@ -1,0 +1,38 @@
+@import "../../../styles/main.scss";
+.MuiContainer-maxWidthLg {
+    max-width: 100% !important;
+}
+
+.MuiTableCell-root {
+    font-family: $base-font-family !important;
+}
+
+// hover and row icon classes starts
+.row-icons {
+    display: inline-block;
+    margin: 5px 0px 5px 20px;
+    padding: 0px 0 0px 10px;
+    margin: 0 !important;
+    .row-icon {
+        padding: 0px 3px;
+        border-radius: 2px;
+        margin: 0 3px;
+        cursor: pointer;
+    }
+}
+
+.show-hover-block {
+    .show-hover-item {
+        visibility: hidden;
+    }
+    &:hover {
+        .show-hover-item {
+            visibility: visible;
+        }
+        .more-icon {
+            display: none !important;
+        }
+    }
+}
+
+// hover classes ends

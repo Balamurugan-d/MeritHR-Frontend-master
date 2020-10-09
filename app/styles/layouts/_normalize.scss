@@ -1,0 +1,66 @@
+.MuiFab-secondary {
+    color: white;
+    background-color: $secondary !important;
+}
+
+.MuiFab-primary {
+    color: white;
+    background-color: $primary !important;
+}
+
+// helper classes
+.mt-4 {
+    margin-top: 1rem !important;
+}
+
+.mr-1 {
+    margin-right: .25rem !important;
+}
+
+.ml-2 {
+    margin-left: .5rem !important;
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+.text-secondary {
+    color: $secondary !important;
+}
+
+.text-success {
+    color: $success !important;
+}
+
+.text-danger {
+    color: $danger !important;
+}
+
+.text-warning {
+    color: $warning !important;
+}
+
+.text-align-center {
+    text-align: center !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.text-align-center {
+    text-align: center !important;
+}
+
+.text-font-primary {
+    color: $font-primary-color;
+}
+
+.text-semibold {
+    font-weight: 500 !important;
+}
+
+.text-font-secondary {
+    color: $font-secondary-color;
+}

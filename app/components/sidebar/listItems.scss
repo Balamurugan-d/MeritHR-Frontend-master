@@ -1,0 +1,25 @@
+@import "../../styles/main.scss";
+.MuiTypography-body1 {
+    font-size: $base-font-size !important;
+}
+
+.MuiListItemIcon-root {
+    .MuiSvgIcon-root {
+        color: $main-sidebar-font !important;
+    }
+}
+
+.MuiListItemText-root {
+    .MuiTypography-root {
+        color: $main-sidebar-font !important;
+    }
+}
+
+.MuiListSubheader-root {
+    color: $main-sidebar-font !important;
+}
+
+.MuiDivider-root {
+    background-color: $main-sidebar-font !important;
+    opacity: .3;
+}
